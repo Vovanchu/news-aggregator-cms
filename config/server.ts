@@ -7,4 +7,7 @@ export default ({ env }) => ({
       secret: env("ADMIN_JWT_SECRET"),
     },
   },
+  app: {
+    keys: env.array("APP_KEYS"),
+  },
 });
