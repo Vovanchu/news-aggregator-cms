@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "allowed_sources",
+  "info": {
+    "singularName": "allowed-source",
+    "pluralName": "allowed-sources",
+    "displayName": "AllowedSource"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
